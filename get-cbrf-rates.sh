@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 function main() {
+  LC_NUMERIC="en_US.UTF-8"
+
   NOCOLOR='\033[0m'
   RED='\033[0;31m'
   CYAN='\033[0;36m'
